@@ -5,8 +5,22 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="js/modernizr.js"></script>
-</head>
+<style type="text/css">
+*{padding: 0; margin: 0;}
+.wrapper {width: 770px; margin: 0 auto;}
+.content_main, .content_sub {width: 50%; float:left; padding: 16px 0px;}
+.stie_info {clear:both;}
+.content {background: url(img/html.png) repeat-y 50% 50%; }
+.clearfix:after {
+	content: "."; 
+	clear: both; 
+	display: block; 
+	height: 0;
+	visibility: hidden;
+}
 
+</style>
+</head>
 <body class="">
 
 <div class="wrapper">
@@ -34,7 +48,7 @@
 	</ul>
 </div>
 
-<div class="content">
+<div class="content clearfix">
 	<!-- 3. Main content -->
 	<div class="content_main hrecipe">
 		<h2 class="fn">Pesto</h2>
